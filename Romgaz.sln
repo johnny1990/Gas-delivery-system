@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Romgaz", "Romgaz\", "{AB4439AC-8064-4DC1-A38C-32583C71AC29}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2926"
+		Debug.AspNetCompiler.PhysicalPath = "Romgaz\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2926\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2926"
+		Release.AspNetCompiler.PhysicalPath = "Romgaz\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2926\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2926"
+		SlnRelativePath = "Romgaz\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB4439AC-8064-4DC1-A38C-32583C71AC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4439AC-8064-4DC1-A38C-32583C71AC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4439AC-8064-4DC1-A38C-32583C71AC29}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4439AC-8064-4DC1-A38C-32583C71AC29}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0F5996D-EC7A-4518-8BE1-FADC940025E7}
+	EndGlobalSection
+EndGlobal

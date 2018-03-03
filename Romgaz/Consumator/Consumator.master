@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Consumator.master.cs" Inherits="Consumator_Consumator" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<HTML><HEAD><TITLE> Romgaz</TITLE>
+
+<SCRIPT language=JavaScript 
+
+
+<SCRIPT language=JavaScript type=text/javascript>
+
+
+    function glight() {
+        document.one.src = '../Images/glight.gif';
+    }
+		</SCRIPT>
+
+
+
+    </HEAD><BODY leftMargin=0 background="../Imagini/1024-back1.jpg" topMargin=0 onload=glight();>
+<form id="form1" runat="server">
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager>
+<TABLE cellSpacing=0 cellPadding=0 width=1200 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ffffff 
+        border=0><TBODY>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD width="25%" height=153>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD><IMG style="WIDTH: 295px; HEIGHT: 105px" 
+                        src="../Imagini/gaz3.jpg"></TD></TR>
+                    <TR>
+                      <TD height=45>
+                          <IMG height=45 
+                        src="../Imagini/acasa_05.jpg" style="width: 296px"></TD></TR></TBODY></TABLE></TD>
+                <TD vAlign=top width="75%">
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD>
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD width="32%">
+                                <IMG height=122 
+                              src="../Imagini/acasa_021.jpg" style="width: 353px"></TD>
+                            <TD width="1%">
+                                <IMG height=122 
+                              src="../Imagini/acasa_033.jpg" style="width: 369px"></TD>
+                            <TD width="67%"><A 
+                              href="#">
+                                <IMG 
+                              style="WIDTH: 340px; HEIGHT: 122px" height=122 
+                              src="../Imagini/acasa_041.jpg" border=0></A></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD bgColor=lightgrey height=30>
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD align="center"   bgColor=lightgrey height=25>
+                              
+                              <asp:Menu ID="MeniuConsumator" runat="server" Orientation="Horizontal" Width="904px" 
+                                    Font-Bold="True" ForeColor="Black" StaticEnableDefaultPopOutImage="False" 
+                                    Height="16px" style="margin-left: 0px">
+                                  <StaticMenuItemStyle ForeColor="Black" />
+                                  <Items>
+                                      <asp:MenuItem NavigateUrl="~/Consumator/Acasa.aspx" Text="Acasa" Value="Acasa">
+                                      </asp:MenuItem>
+                                      <asp:MenuItem Text="Administreaza" Value="Administreaza">
+                                          <asp:MenuItem NavigateUrl="~/Consumator/Profil conexiune.aspx" Text="Profil" 
+                                              Value="Profil"></asp:MenuItem>
+                                      </asp:MenuItem>
+                                      <asp:MenuItem Selectable="False" Text="Conexiune" Value="Conexiune">
+                                          <asp:MenuItem NavigateUrl="~/Consumator/Detalii conexiune consumator.aspx" 
+                                              Text="Vizualizare conexiune" Value="Vizualizare conexiune"></asp:MenuItem>
+                                          <asp:MenuItem NavigateUrl="~/Consumator/Transfer conexiune.aspx" 
+                                              Text="Aplica transfer" Value="Aplica transfer"></asp:MenuItem>
+                                      </asp:MenuItem>
+                                      <asp:MenuItem Text="Stare" Value="Stare">
+                                          <asp:MenuItem NavigateUrl="~/Consumator/Stare rezervare gaz.aspx" 
+                                              Text="Rezervare gaz" Value="Rezervare gaz"></asp:MenuItem>
+                                          <asp:MenuItem Text="Adresa transfer" Value="Adresa transfer" 
+                                              NavigateUrl="~/Consumator/Afiseaza stare transfer.aspx"></asp:MenuItem>
+                                      </asp:MenuItem>
+                                      <asp:MenuItem NavigateUrl="~/Consumator/Feedback.aspx" Text="Feedback" 
+                                          Value="Feedback"></asp:MenuItem>
+                                      <asp:MenuItem NavigateUrl="~/Acasa.aspx" Text="Iesire" Value="Iesire">
+                                      </asp:MenuItem>
+                                  </Items>
+                                </asp:Menu>  
+                              </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD vAlign=top>
+            
+            <TABLE height=70 cellSpacing=0 cellPadding=0 width="100%" 
+              border=0><TBODY>
+              <TR>
+                <TD valign="top">
+                <div style="height:472px">
+                   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                       
+                  </asp:ContentPlaceHolder></div>
+                  </TD></TR>
+                 
+              <TR>
+                <TD style="HEIGHT: 28px" bgColor=lightgrey height=28>
+                  <DIV align=center><FONT color=#0033cc size=1>&nbsp;© Copyright Toate drepturile 
+                  rezervate.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;</FONT></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                  </form>  
+                  </BODY></HTML>
