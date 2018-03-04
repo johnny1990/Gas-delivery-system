@@ -8,7 +8,7 @@
     </td>
 <tr><td>Romgaz sistem online rezervare gaz<br />
     Ploiesti,<br />
-    Strada Gheorghe Grigore Cantacuzino 184,<br />
+    Strada Gheorghe Grigore Cantacuzino 184<br />
 
     <br />
     telefon:+40269201020.  
